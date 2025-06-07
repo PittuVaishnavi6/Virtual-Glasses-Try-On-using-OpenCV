@@ -22,6 +22,7 @@ This project allows users to try on different glasses in real-time using their w
 ---
 
 ## 📁 Folder Structure
+
  VirtualTryOn/
 │
 ├── glass_image/ # Contains transparent PNG glasses
@@ -43,7 +44,7 @@ This project allows users to try on different glasses in real-time using their w
 
 ### 1. Clone the Repository
 
-```bash
+
 git clone https://github.com/PittuVaishnavi6/Virtual-Glasses-Try-On-using-OpenCV.git
 cd Virtual-Glasses-Try-On-using-OpenCV
 
