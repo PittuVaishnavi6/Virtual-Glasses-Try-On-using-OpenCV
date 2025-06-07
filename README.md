@@ -26,14 +26,17 @@ This project allows users to try on different glasses in real-time using their w
  VirtualTryOn/
 │
 ├── glass_image/ # Contains transparent PNG glasses
+
 │ ├── glasses_01.png
 │ ├── glasses_02.png
 │ └── ...
 │
+
 ├── models/ # Haarcascade XML files
 │ ├── haarcascade_eye.xml
 │ └── haarcascade_frontalface_alt.xml
 │
+
 ├── virtual_try_on/
 │ └── virtual_try_on.py # Main Python script
 
@@ -57,6 +60,7 @@ pip install opencv-python
 python virtual_try_on/virtual_try_on.py
 
 How to Use
+
 Press keys 1, 2, 3, etc. to switch between different glasses (based on your code).
 
 Press Q to quit the application.
@@ -64,6 +68,7 @@ Press Q to quit the application.
 Make sure your face is clearly visible to the camera for accurate detection.
 
 Adding More Glasses
+
 To add new styles:
 
 Place your PNG glasses with transparent background in the glass_image/ folder.
