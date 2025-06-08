@@ -48,37 +48,53 @@ VirtualTryOn/
 
 ##  How to Run
 
-### 1. Clone the Repository
 
+### 1️⃣ Clone the Repository
 
+```bash
 git clone https://github.com/PittuVaishnavi6/Virtual-Glasses-Try-On-using-OpenCV.git
 cd Virtual-Glasses-Try-On-using-OpenCV
+```
 
-2. Install Requirements
+---
+
+### 2️⃣ Install Requirements
+
 Install OpenCV using pip:
 
+```bash
 pip install opencv-python
+```
 
-3. Run the App
+---
+
+### 3️⃣ Run the App
+
+```bash
 python virtual_try_on/virtual_try_on.py
+```
 
-How to Use
+---
 
-Press keys 1, 2, 3, etc. to switch between different glasses (based on your code).
+##  How to Use
 
-Press Q to quit the application.
+- Press **1, 2, 3, etc.** to switch between different glasses (based on your code).
+- Press **Q** to quit the application.
+- Ensure your **face is clearly visible** to the camera for accurate detection.
 
-Make sure your face is clearly visible to the camera for accurate detection.
+---
 
-Adding More Glasses
+##  Adding More Glasses
 
-To add new styles:
+Want to try new styles? Follow these steps:
 
-Place your PNG glasses with transparent background in the glass_image/ folder.
+1. Add your transparent PNG glasses into the `glass_image/` folder.
+2. Ensure each image:
+   - Has a transparent background
+   - Is in **RGBA** format
+   - Is named properly, e.g., `glasses_05.png`, `glasses_06.png`, etc.
+3. Update the image-loading logic in `virtual_try_on.py` if needed to support more images.
 
-Make sure they are in the correct format (RGBA) and named properly (glasses_05.png, etc.).
-
-Update the image-loading logic in virtual_try_on.py if needed.
 
 
 
