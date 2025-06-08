@@ -23,20 +23,18 @@ This project allows users to try on different glasses in real-time using their w
 
 ## 📁 Folder Structure
 
- VirtualTryOn/
+VirtualTryOn/
 │
 ├── glass_image/ # Contains transparent PNG glasses
-
 │ ├── glasses_01.png
 │ ├── glasses_02.png
-│ └── ...
+│ ├── glasses_03.png
+│ └── ... # Add more glasses as needed
 │
-
 ├── models/ # Haarcascade XML files
 │ ├── haarcascade_eye.xml
 │ └── haarcascade_frontalface_alt.xml
 │
-
 ├── virtual_try_on/
 │ └── virtual_try_on.py # Main Python script
 
